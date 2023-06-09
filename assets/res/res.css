@@ -1,0 +1,717 @@
+/* phần tầm 800px như ipad với 1 số điện thoại loại bự */
+@media screen and (max-width:1290px) {
+    .news-thumbnails img {
+        width: 250px;
+        height: auto;
+        margin-bottom: 10px;
+      }
+}
+
+@media screen and (max-width:1120px) {
+    /* ------ phần banner search ------ */
+    .banner__search {
+        right: 28%;
+    }
+    /* Phần banner con */
+    .banner__content-theme-list img {
+        width: 150px;
+        height: 200px;
+    }
+
+    .article__day-feedback {
+        transform: translateY(0px);
+        margin-left: 20px;
+        width: 40%;
+        padding: 10px;
+    }
+
+    .footer__logo {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .footer__input button {
+        padding: 10px 60px;
+        margin: 10px 0px;
+    }
+
+    .news-thumbnails img {
+        width: 210px;
+        height: auto;
+        margin-bottom: 10px;
+      }
+}
+
+/*  điện thoại to 1 xíu */
+
+@media screen and (max-width:890px) {
+    /* ------ phần banner search ------ */
+    .banner__search {
+        right: 20%;
+    }
+
+    .article {
+        flex-wrap: wrap;
+    }
+
+    .article__tour--list {
+        margin-top: 20px;
+        width: 45%;
+    }
+
+    .article__report {
+        background-color: rgb(228, 228, 228);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        padding: 60px 30px;
+    } 
+
+    .article__day-feedback {
+        background-color: white;
+        transform: translateY(-30px);
+        margin-left: 20px;
+        width: 25%;
+        padding: 10px;
+    }
+/* ưu đãi khách hàng khi đặt vé tại web */
+    .article {
+        background-color: rgb(228, 228, 228);
+        display: flex;
+        padding: 60px 30px;
+        flex-wrap: wrap;
+    }
+
+    .header {
+        padding:0px  60px;
+    }
+
+    .banner__content-list {
+        padding: 0px 60px;
+        top: 30%;
+    }
+
+    .article__support-content-null {
+        margin-top: 0px;
+    }
+
+    .article__report--list img {
+        width: 100%;
+    }
+
+    .article__report-content-blur {
+        width: 100%;
+    }
+
+    .footer{
+        flex-wrap: wrap;
+    }
+
+    .footer__logo {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .footer__input button {
+        padding: 10px 60px;
+        margin: 10px 0px;
+    }
+
+    .shopdetail__img {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .shopdetail__img-private {
+        width: 100%;
+    }
+
+    .shopdetail__img img {
+        height: auto;
+    }
+
+    .shopdetail__container {
+        margin: 0 30px;
+        padding: 50px 60px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .shopdetail__map {
+        padding: 30px 30px;
+    }
+
+    .shopdetail__book-ticket {
+        padding: 30px 60px;
+    }
+    
+    .pay-atm {
+        flex-wrap: wrap;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .options {
+        margin: 10px 0px;
+    }
+
+    #bankImage {
+        padding: 10px;
+    }
+
+    .news-thumbnails img {
+        width: 180px;
+        height: auto;
+        margin-bottom: 10px;
+      }
+
+      .news-container {
+        padding: 60px;
+      }
+
+      .news-content-banner {
+        position: absolute;
+        top: 20%;
+        padding: 0px 0px 100px 100px;
+      }
+
+      .news-container-title {
+        padding:   120px 60px 0px 60px;
+    }
+
+    .news-content {
+        padding: 0px 60px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .news-content-title h1 {
+        padding: 20px 60px;
+        font-size: 30px;
+    }
+
+    .banner-quangcao {
+        padding: 60px 60px;
+    }
+
+    .banner-quangcao-private {
+        flex-wrap: wrap;
+    }
+
+    .banner-quangcao-private img {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:840px) {
+    /* ---- phần header --------- */
+    .header {
+        padding: 0px 60px;
+    }
+
+    .gallery-section-2 img {
+        width: auto;
+    }
+
+    .gallery {
+        overflow: hidden;
+        width: 100%;
+        padding: 60px;
+      }
+
+      .gallery-section-3 img {
+        width: 25%;
+      }
+    /* ------ phần banner search ------ */
+    .banner__search {
+        right: 20%;
+    }
+
+    .banner__content-list {
+        padding: 0px 60px;
+    }
+    /* Phần banner con */
+    .banner__content-theme-list img {
+        width: 180px;
+        height: 200px;
+    }
+
+    .article__tour--list {
+        width: 44%;
+        margin-top: 20px;
+    }
+
+    .article {
+        padding: 60px 40px;
+        flex-basis: 100%;
+    }
+
+    .h2-article {
+        text-align: center;
+        color: #4d79ff;
+        font-size: 40px;
+        padding: 60px 60px 0px 60px;
+    }
+
+    .article__report {
+        background-color: rgb(228, 228, 228);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        padding: 60px 30px;
+    } 
+
+    .article__day-feedback {
+        background-color: white;
+        transform: translateY(-30px);
+        margin-left: 20px;
+        width: 25%;
+        padding: 10px;
+    }
+
+    .aticle__support-icon p{
+        padding:0px 10px;
+        font-size: 13px;
+    }
+
+    .article__report--list img {
+        width: 100%;
+    }
+
+    .article__report-content-blur {
+        width: 100%;
+    }
+
+    .container {
+        padding: 120px 10px;
+    }
+
+    .shopdetail__img {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .shopdetail__img-private {
+        width: 100%;
+    }
+
+    .shopdetail__img img {
+        height: auto;
+    }
+
+    .shopdetail__map {
+        padding: 30px 30px;
+    }
+
+    .shopdetail__book-ticket {
+        padding: 30px 30px;
+    }
+
+    .news-thumbnails img {
+        width: 160px;
+        height: auto;
+        margin-bottom: 10px;
+      }
+
+      .news-container {
+        padding: 60px;
+      }
+
+      .news-content-banner {
+        position: absolute;
+        top: 20%;
+        padding: 0px 0px 100px 100px;
+      }
+
+      .news-content-title h1 {
+        padding: 20px 60px;
+        font-size: 30px;
+    }
+
+    .news-content-list {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .news-content {
+        padding: 0px 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+    .banner-quangcao {
+        padding: 60px 60px;
+    }
+
+    .banner-quangcao-private {
+        flex-wrap: wrap;
+    }
+
+    .banner-quangcao-private img {
+        width: 100%;
+    }
+
+}
+
+/* phần iphone với kích thước trung bình tầm 450 đỗ xuống */
+@media screen and (max-width:430px) {
+    /* Phần header */
+    .header {
+        padding: 0px 20px;
+    }
+    .header__menu-res-icon i {
+        display: block;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    /* phần danh sách dạng mobile */
+    .header__menu-mobile {
+        width: 200px;
+        max-width: 100%;
+    }
+
+    .header__menu-mobile ul li {
+        list-style: none;
+        font-weight: 600;
+        padding: 5px 10px;
+        border-bottom: 1px solid gray;
+    }
+    /* Phần search */
+
+    .banner__search {
+        right: 20%;
+    }
+
+    .banner__search input {
+        width: 250px;
+        height: 40px;
+        outline: none;
+        border-radius: 20px;
+        border: none;
+    }
+
+    /* Phần banner bự */
+    .banner__content-list {
+        padding: 0px 20px;
+    }
+
+    .banner__content-list h1 {
+        width: 200px;
+        font-size: 50px;
+    }
+
+    .article {
+        flex-wrap: wrap;
+    }
+
+    .banner__content-list p {
+        width: 300px;
+    }
+
+    /* Phần banner con của banner bự */
+    .banner__content-theme-list {
+        display: none;
+    }
+
+    .article__tour--list {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .article {
+        padding: 60px 0px;
+        flex-basis: 100%;
+    }
+
+    .h2-article {
+        text-align: center;
+        color: #4d79ff;
+        font-size: 30px;
+        padding: 60px 60px 0px 60px;
+    }
+
+    .article__support-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .article__support  {
+        padding: 10px;
+    }
+
+
+    .article__report {
+        background-color: rgb(228, 228, 228);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        padding: 60px 0px;
+    } 
+
+    .article__day-feedback {
+        background-color: white;
+        transform: translateY(5px);
+        margin-left: 20px;
+        width: 40%;
+        padding: 10px;
+    }
+
+    .article__report--list img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .article__report-content-blur {
+        width: 100%;
+    }
+
+    .article__support-content {
+        flex-wrap: wrap;
+        padding: 20px 0px;
+    }
+
+    .article__support-content-img {
+        padding: 0px 20px;
+    }
+
+    .footer {
+        padding: 30px 10px;
+    }
+
+    .footer__list-support {
+        padding: 10px;
+    }
+
+    .footer__logo {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .footer__input button {
+        padding: 10px 60px;
+        margin: 10px 0px;
+    }
+
+    .footer__input input {
+        width: 100%;
+    }
+
+    .shopdetail__container {
+        margin: 0 30px;
+        padding: 50px 30px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .shopdetail__content-2 {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        background-image: linear-gradient(to right, rgb(255, 0, 255), rgb(0, 255, 21));
+    }
+
+    .shopdetail__book-ticket {
+        padding: 30px 30px;
+    }
+
+    .form-register-list {
+        border-radius: 0px;
+    }
+
+    .pay-container {
+        padding:120px 10px 30px 10px;
+    }
+
+    .pay-content {
+        padding: 60px 10px;
+    }
+
+    .pay-info {
+        width: 100%;
+        padding: 20px 10px;
+    }
+
+    .gallery {
+        object-fit: cover;
+        overflow: hidden;
+        width: 100%;
+        padding:0px 20px;
+      }
+
+      .gallery-section {
+        flex-wrap: wrap;
+      }
+
+      .gallery-section img {
+        width: 47%;
+        height: auto;
+      }
+
+    #bankImage {
+        width: 200px;
+    }
+
+    .news-thumbnails img {
+        display: none;
+      }
+
+      .news-container {
+        padding: 20px;
+      }
+
+      .news-content-banner {
+        position: absolute;
+        top: 10%;
+        padding: 0px 0px 30px 30px;
+      }
+
+      .news-content-banner h1 {
+        font-size: 50px;
+        color: white;
+      }
+    
+      .news-content-banner span {
+        color: white;
+        font-size: 20px;
+      }
+
+      .news-content-banner button {
+        display: block;
+        margin-top: 20px;
+      }
+    
+      .news-content-banner p {
+        display: none;
+      }
+
+      .news-container-title {
+        padding:   120px 20px 0px 20px;
+    }
+
+    .news-content-title h1 {
+        padding: 20px 10px;
+        font-size: 30px;
+    }
+
+    .news-content-list {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .news-content {
+        padding: 0px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+    .banner-quangcao {
+        padding: 60px 10px;
+    }
+
+    .banner-quangcao-private {
+        flex-wrap: wrap;
+    }
+
+    .banner-quangcao-private img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:330px) {
+    /* phần icon */
+    .header__menu-res-icon i {
+        display: block;
+    }
+
+    .header__menu-res-icon {
+        left: 23%;
+    }
+     /* Phần search */
+     .banner__search {
+        right: 10%;
+        top: 18%;
+    }
+
+    .banner__search input {
+        width: 250px;
+        height: 40px;
+        outline: none;
+        border-radius: 20px;
+        border: none;
+    }
+
+    /* Phần banner bự */
+    .banner__content-list {
+        overflow: hidden;
+    }
+    .banner__content-list h1 {
+        width: 100px;
+        font-size: 30px;
+    }
+
+    .banner__content-list p {
+        width: 300px;
+    }
+
+    .article__report--list img {
+        width: 100%;
+    }
+
+    .h2-article {
+        text-align: center;
+        color: #4d79ff;
+        font-size: 30px;
+        padding: 60px 60px 0px 60px;
+    }
+
+    .article__day-feedback {
+        background-color: white;
+        transform: translateY(5px);
+        margin-left: 20px;
+        width: 40%;
+        padding: 10px;
+    }
+
+    .shopdetail__container {
+        margin: 0 10px;
+        padding: 10px 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .shopdetail__content-2 {
+        width: 90%;
+        padding: 10px;
+        display: flex;
+        background-image: linear-gradient(to right, rgb(255, 0, 255), rgb(0, 255, 21));
+    }
+
+    #bankImage {
+        width: 160px;
+    }
+
+    .news-content-banner button {
+        display: block;
+        margin-top: 5px;
+      }
+
+      .news-content-banner h1 {
+        font-size: 40px;
+        color: white;
+      }
+    
+      .news-content-banner span {
+        color: white;
+        font-size: 15px;
+      }
+
+      .news-content-banner button {
+        display: block;
+        margin-top: 10px;
+      }
+}
