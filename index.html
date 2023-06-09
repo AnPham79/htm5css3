@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/res/res.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section>
+        <div class="header">
+            <div class="header__logo">
+                <P>TRAVEL</P>
+            </div>
+
+            <div class="header__menu">
+                <ul>
+                    <li><a href="./index.html">Trang chủ</a></li>
+                    <li><a href="./listtour.html">Điểm đến</a></li>
+                    <li><a href="./news.html">Tin tức</a></li>
+                    <li><a href="./pay.html">Giỏ hàng</a></li>
+                </ul>
+            </div>
+
+            <div class="header__account">
+                <button class="btn-2"><a href="./register.html">Đăng kí</a></button>
+            </div>
+
+            <input type="checkbox" id="header__menu-mobile--input" class="header__menu-res-input">
+            <label class="header__menu-res-icon" for="header__menu-mobile--input">
+                <i class='bx bx-list-ul'></i>
+            </label>
+            
+            <label class="header__menu-overlay" for="header__menu-mobile--input"></label>
+
+            <div class="header__menu-mobile">
+                <label class="header__menu-moble-close" for="header__menu-mobile--input">
+                    <i class='bx bx-x'></i>
+                </label>
+                
+                <ul class="header__menu-mobile--list">
+                    <li><a href="" class="header__menu-mobile-link">Trang chủ</a>
+                    </li>
+                    <li><a href="./listtour.html" class="header__menu-mobile-link">Điểm đến</a>
+                    </li>
+                    <li><a href="./news.html" class="header__menu-mobile-link">Tin tức</a>
+                    </li>
+                    <li><a href="./pay.html" class="header__menu-mobile-link">Giỏ hàng</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="banner">
+            <div class="banner__img active">
+                <img src="./assets/img/bg1.jpg" alt="">
+                <div class="banner__content">
+                    <div class="banner__search">
+                        <div class="banner__search-list">
+                            <input type="text" placeholder="Tìm kiếm điểm đến bạn thích ...">
+                            <i class='bx bx-search-alt-2'></i>
+                        </div>
+                    </div>
+                    <div class="banner__content-list">
+                        <div class="banner__content-list-map">
+                            <i class='bx bxs-map' ></i>
+                            <span>Albay Philippines</span>
+                        </div>
+                        <h1>MAYON VOLCANO</h1>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro autem alias optio exercitationem laudantium, quos consequuntur quo? Possimus recusandae cupiditate quis dolores nesciunt sunt veritatis libero aperiam nam. Quasi, ex.</P>
+                        <button>Khám phá</button>
+                    </div>
+                    <div class="banner__content-theme">
+                        <div class="banner__content-theme-list">
+                            <div class="banner__content-theme-img">
+                                <img src="./assets/img/bg3.jpg" alt="">
+                                <div class="banner__content-theme-img-title">
+                                    <p>Hill, Balan</p>
+                                    <h4>GREEN HILL</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner__content-theme-list">
+                            <div class="banner__content-theme-img">
+                                <img src="./assets/img/bg4.jpg" alt="">
+                                <div class="banner__content-theme-img-title">
+                                    <p>ARIZONA, AMERICA</p>
+                                    <h4>THE WAVE</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner__content-theme-list">
+                            <div class="banner__content-theme-img">
+                                <img src="./assets/img/bg2.jpg" alt="">
+                                <div class="banner__content-theme-img-title">
+                                    <p>Northern, Ireland</p>
+                                    <h4>NORTHERN AURORA</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner__img-blur"></div>
+            </div>
+            <div class="banner__img">
+                <img src="./assets/img/bg2.jpg" alt="">
+                <div class="banner__content">
+                    <div class="banner__search">
+                        <div class="banner__search-list">
+                            <input type="text" placeholder="Search tourist spots">
+                            <i class='bx bx-search-alt-2'></i>
+                        </div>
+                    </div>
+                    <div class="banner__content-list">
+                        <div class="banner__content-list-map">
+                            <i class='bx bxs-map' ></i>
+                            <span>Northern, Ireland</span>
+                        </div>
+                        <h1>NORTHERN AURORA</h1>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro autem alias optio exercitationem laudantium, quos consequuntur quo? Possimus recusandae cupiditate quis dolores nesciunt sunt veritatis libero aperiam nam. Quasi, ex.</P>
+                        <button>Khám phá</button>
+                    </div>
+                    <div class="banner__content-theme">
+                        <div class="banner__content-theme-list">
+                            <div class="banner__content-theme-img">
+                                <img src="./assets/img/bg3.jpg" alt="">
+                                <div class="banner__content-theme-img-title">
+                                    <p>Hill, Balan</p>
+                                    <h4>GREEN HILL</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner__content-theme-list">
+                            <div class="banner__content-theme-img">
+                                <img src="./assets/img/bg4.jpg" alt="">
+                                <div class="banner__content-theme-img-title">
+                                    <p>ARIZONA, AMERICA</p>
+                                    <h4>THE WAVE</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner__content-theme-list">
+                            <div class="banner__content-theme-img">
+                                <img src="./assets/img/bg2.jpg" alt="">
+                                <div class="banner__content-theme-img-title">
+                                    <p>Northern, Ireland</p>
+                                    <h4>NORTHERN AURORA</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner__img-blur"></div>
+            </div>
+            <div class="banner__img">
+                <img src="./assets/img/bg3.jpg" alt="">
+                <div class="banner__content">
+                    <div class="banner__search">
+                        <div class="banner__search-list">
+                            <input type="text" placeholder="Search tourist spots">
+                            <i class='bx bx-search-alt-2'></i>
+                        </div>
+                    </div>
+                    <div class="banner__content-list">
+                        <div class="banner__content-list-map">
+                            <i class='bx bxs-map' ></i>
+                            <span>Hill, Balan</span>
+                        </div>
+                        <h1>GREEN HILL</h1>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro autem alias optio exercitationem laudantium, quos consequuntur quo? Possimus recusandae cupiditate quis dolores nesciunt sunt veritatis libero aperiam nam. Quasi, ex.</P>
+                        <button>Khám phá</button>
+                    </div>
+                    <div class="banner__content-theme">
+                        <div class="banner__content-theme-list">
+                            <div class="banner__content-theme-img">
+                                <img src="./assets/img/bg3.jpg" alt="">
+                                <div class="banner__content-theme-img-title">
+                                    <p>Hill, Balan</p>
+                                    <h4>GREEN HILL</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner__content-theme-list">
+                            <div class="banner__content-theme-img">
+                                <img src="./assets/img/bg4.jpg" alt="">
+                                <div class="banner__content-theme-img-title">
+                                    <p>ARIZONA, AMERICA</p>
+                                    <h4>THE WAVE</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner__content-theme-list">
+                            <div class="banner__content-theme-img">
+                                <img src="./assets/img/bg2.jpg" alt="">
+                                <div class="banner__content-theme-img-title">
+                                    <p>Northern, Ireland</p>
+                                    <h4>NORTHERN AURORA</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner__img-blur"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 class="h2-article">Tour du lịch mới nhất
+            <div class="h2-article__content">
+                
+            </div>
+        </h2>
+        <div class="article">
+            <div class="article__tour--list">
+                <div class="article__tour-img">
+                    <img src="./assets/img/bg5.jpg" alt="">
+                </div>
+                <div class="article__tour-content">
+                    <div class="article__tour-content--name">
+                        <h3>Đồng muối Salar de Uyuni, Bolivia.</h3>
+                    </div>
+                    <div class="article__tour-content--start private-icon-article">
+                        <i class='bx bxs-map'></i>
+                        <p>Ngày 18 tháng 8 năm 2023</p>
+                    </div>
+                    <div class="article__tour-content--price private-icon-article">
+                        <i class='bx bxs-purchase-tag' ></i>
+                        <p>7.000.000đ</p><template></template>
+                    </div>
+                    <div class="article__tour-content--view">
+                        <p>7000 lượt xem</p>
+                    </div>
+                    <div class="article__tour-content--detail">
+                        <a href="./shopdetail.html">Xem chi tiết</a>
+                    </div>
+                </div>
+            </div>
+            <div class="article__tour--list">
+                <div class="article__tour-img">
+                    <img src="./assets/img/bg6.jpg" alt="">
+                </div>
+                <div class="article__tour-content">
+                    <div class="article__tour-content--name">
+                        <h3>Sông Cano Cristales, Colombia.</h3>
+                    </div>
+                    <div class="article__tour-content--start private-icon-article">
+                        <i class='bx bxs-map'></i>
+                        <p>Ngày 12 tháng 8 năm 2023</p>
+                    </div>
+                    <div class="article__tour-content--price private-icon-article">
+                        <i class='bx bxs-purchase-tag' ></i>
+                        <p>7.000.000đ</p><template></template>
+                    </div>
+                    <div class="article__tour-content--view">
+                        <p>5000 lượt xem</p>
+                    </div>
+                    <div class="article__tour-content--detail">
+                        <a href="">Xem chi tiết</a>
+                    </div>
+                </div>
+            </div>
+            <div class="article__tour--list">
+                <div class="article__tour-img">
+                    <img src="./assets/img/bg7.jpg" alt="">
+                </div>
+                <div class="article__tour-content">
+                    <div class="article__tour-content--name">
+                        <h3>Vườn hoa Keukenhof, Hà Lan.</h3>
+                    </div>
+                    <div class="article__tour-content--start private-icon-article">
+                        <i class='bx bxs-map'></i>
+                        <p>Ngày 17 tháng 12 năm 2023</p>
+                    </div>
+                    <div class="article__tour-content--price private-icon-article">
+                        <i class='bx bxs-purchase-tag' ></i>
+                        <p>9.200.000đ</p><template></template>
+                    </div>
+                    <div class="article__tour-content--view">
+                        <p>3000 lượt xem</p>
+                    </div>
+                    <div class="article__tour-content--detail">
+                        <a href="">Xem chi tiết</a>
+                    </div>
+                </div>
+            </div>
+            <div class="article__tour--list">
+                <div class="article__tour-img">
+                    <img src="./assets/img/bg8.jpg" alt="">
+                </div>
+                <div class="article__tour-content">
+                    <div class="article__tour-content--name">
+                        <h3>Ruộng bậc thang, Việt Nam.</h3>
+                    </div>
+                    <div class="article__tour-content--start private-icon-article">
+                        <i class='bx bxs-map'></i>
+                        <p>Ngày 4 tháng 8 năm 2023</p>
+                    </div>
+                    <div class="article__tour-content--price private-icon-article">
+                        <i class='bx bxs-purchase-tag' ></i>
+                        <p>8.190.000đ</p><template></template>
+                    </div>
+                    <div class="article__tour-content--view">
+                        <p>5000 lượt xem</p>
+                    </div>
+                    <div class="article__tour-content--detail">
+                        <a href="">Xem chi tiết</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="article">
+            <div class="article__tour--list">
+                <div class="article__tour-img">
+                    <img src="./assets/img/bg5.jpg" alt="">
+                </div>
+                <div class="article__tour-content">
+                    <div class="article__tour-content--name">
+                        <h3>Đồng muối Salar de Uyuni, Bolivia.</h3>
+                    </div>
+                    <div class="article__tour-content--start private-icon-article">
+                        <i class='bx bxs-map'></i>
+                        <p>Ngày 18 tháng 8 năm 2023</p>
+                    </div>
+                    <div class="article__tour-content--price private-icon-article">
+                        <i class='bx bxs-purchase-tag' ></i>
+                        <p>7.000.000đ</p><template></template>
+                    </div>
+                    <div class="article__tour-content--view">
+                        <p>7000 lượt xem</p>
+                    </div>
+                    <div class="article__tour-content--detail">
+                        <a href="./shopdetail.html">Xem chi tiết</a>
+                    </div>
+                </div>
+            </div>
+            <div class="article__tour--list">
+                <div class="article__tour-img">
+                    <img src="./assets/img/bg6.jpg" alt="">
+                </div>
+                <div class="article__tour-content">
+                    <div class="article__tour-content--name">
+                        <h3>Sông Cano Cristales, Colombia.</h3>
+                    </div>
+                    <div class="article__tour-content--start private-icon-article">
+                        <i class='bx bxs-map'></i>
+                        <p>Ngày 12 tháng 8 năm 2023</p>
+                    </div>
+                    <div class="article__tour-content--price private-icon-article">
+                        <i class='bx bxs-purchase-tag' ></i>
+                        <p>7.000.000đ</p><template></template>
+                    </div>
+                    <div class="article__tour-content--view">
+                        <p>5000 lượt xem</p>
+                    </div>
+                    <div class="article__tour-content--detail">
+                        <a href="">Xem chi tiết</a>
+                    </div>
+                </div>
+            </div>
+            <div class="article__tour--list">
+                <div class="article__tour-img">
+                    <img src="./assets/img/bg7.jpg" alt="">
+                </div>
+                <div class="article__tour-content">
+                    <div class="article__tour-content--name">
+                        <h3>Vườn hoa Keukenhof, Hà Lan.</h3>
+                    </div>
+                    <div class="article__tour-content--start private-icon-article">
+                        <i class='bx bxs-map'></i>
+                        <p>Ngày 17 tháng 12 năm 2023</p>
+                    </div>
+                    <div class="article__tour-content--price private-icon-article">
+                        <i class='bx bxs-purchase-tag' ></i>
+                        <p>9.200.000đ</p><template></template>
+                    </div>
+                    <div class="article__tour-content--view">
+                        <p>3000 lượt xem</p>
+                    </div>
+                    <div class="article__tour-content--detail">
+                        <a href="">Xem chi tiết</a>
+                    </div>
+                </div>
+            </div>
+            <div class="article__tour--list">
+                <div class="article__tour-img">
+                    <img src="./assets/img/bg8.jpg" alt="">
+                </div>
+                <div class="article__tour-content">
+                    <div class="article__tour-content--name">
+                        <h3>Ruộng bậc thang, Việt Nam.</h3>
+                    </div>
+                    <div class="article__tour-content--start private-icon-article">
+                        <i class='bx bxs-map'></i>
+                        <p>Ngày 4 tháng 8 năm 2023</p>
+                    </div>
+                    <div class="article__tour-content--price private-icon-article">
+                        <i class='bx bxs-purchase-tag' ></i>
+                        <p>8.190.000đ</p><template></template>
+                    </div>
+                    <div class="article__tour-content--view">
+                        <p>5000 lượt xem</p>
+                    </div>
+                    <div class="article__tour-content--detail">
+                        <a href="">Xem chi tiết</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="article__banner">
+            <img src="./assets/img/banner1.jpg" alt="">
+        </div>
+    </section>
+    <section>
+        <h2 class="h2-article">Tour du lịch hot
+            <div class="h2-article__content" style="background-image: linear-gradient(to left, orange, red, orange);">
+                
+            </div>
+        </h2>
+        <div class="article article-hot">
+            <div class="article__tour--list article__tour--list-hot">
+                <div class="article__tour-img">
+                    <img src="./assets/img/bg9.jpg" alt="">
+                </div>
+                <div class="article__tour-content">
+                    <div class="article__tour-content--name">
+                        <h3>Thung lũng Quebrada de Humahuaca, Argentina.</h3>
+                    </div>
+                    <div class="article__tour-content--start private-icon-article">
+                        <i class='bx bxs-map'></i>
+                        <p>Ngày 9 tháng 10 năm 2023</p>
+                    </div>
+                    <div class="article__tour-content--price private-icon-article">
+                        <i class='bx bxs-purchase-tag' ></i>
+                        <p>8.220.000đ</p><template></template>
+                    </div>
+                    <div class="article__tour-content--view">
+                        <p>8000 lượt xem</p>
+                    </div>
+                    <div class="article__tour-content--detail">
+                        <a href="">Xem chi tiết</a>
+                    </div>
+                    <div class="article__tour-content-hot-icon">
+                        <i class='bx bxs-hot'></i>
+                        <p>Hot</p>
+                    </div>
+                </div>
+            </div>
+            <div class="article__tour--list article__tour--list-hot">
+                <div class="article__tour-img">
+                    <img src="./assets/img/bg9.jpg" alt="">
+                </div>
+                <div class="article__tour-content">
+                    <div class="article__tour-content--name">
+                        <h3>Thung lũng Quebrada de Humahuaca, Argentina.</h3>
+                    </div>
+                    <div class="article__tour-content--start private-icon-article">
+                        <i class='bx bxs-map'></i>
+                        <p>Ngày 9 tháng 10 năm 2023</p>
+                    </div>
+                    <div class="article__tour-content--price private-icon-article">
+                        <i class='bx bxs-purchase-tag' ></i>
+                        <p>8.220.000đ</p><template></template>
+                    </div>
+                    <div class="article__tour-content--view">
+                        <p>8000 lượt xem</p>
+                    </div>
+                    <div class="article__tour-content--detail">
+                        <a href="">Xem chi tiết</a>
+                    </div>
+                    <div class="article__tour-content-hot-icon">
+                        <i class='bx bxs-hot'></i>
+                        <p>Hot</p>
+                    </div>
+                </div>
+            </div>
+            <div class="article__tour--list article__tour--list-hot">
+                <div class="article__tour-img">
+                    <img src="./assets/img/bg9.jpg" alt="">
+                </div>
+                <div class="article__tour-content">
+                    <div class="article__tour-content--name">
+                        <h3>Thung lũng Quebrada de Humahuaca, Argentina.</h3>
+                    </div>
+                    <div class="article__tour-content--start private-icon-article">
+                        <i class='bx bxs-map'></i>
+                        <p>Ngày 9 tháng 10 năm 2023</p>
+                    </div>
+                    <div class="article__tour-content--price private-icon-article">
+                        <i class='bx bxs-purchase-tag' ></i>
+                        <p>8.220.000đ</p><template></template>
+                    </div>
+                    <div class="article__tour-content--view">
+                        <p>8000 lượt xem</p>
+                    </div>
+                    <div class="article__tour-content--detail">
+                        <a href="">Xem chi tiết</a>
+                    </div>
+                    <div class="article__tour-content-hot-icon">
+                        <i class='bx bxs-hot'></i>
+                        <p>Hot</p>
+                    </div>
+                </div>
+            </div>
+            <div class="article__tour--list article__tour--list-hot">
+                <div class="article__tour-img">
+                    <img src="./assets/img/bg9.jpg" alt="">
+                </div>
+                <div class="article__tour-content">
+                    <div class="article__tour-content--name">
+                        <h3>Thung lũng Quebrada de Humahuaca, Argentina.</h3>
+                    </div>
+                    <div class="article__tour-content--start private-icon-article">
+                        <i class='bx bxs-map'></i>
+                        <p>Ngày 9 tháng 10 năm 2023</p>
+                    </div>
+                    <div class="article__tour-content--price private-icon-article">
+                        <i class='bx bxs-purchase-tag' ></i>
+                        <p>8.220.000đ</p><template></template>
+                    </div>
+                    <div class="article__tour-content--view">
+                        <p>8000 lượt xem</p>
+                    </div>
+                    <div class="article__tour-content--detail">
+                        <a href="">Xem chi tiết</a>
+                    </div>
+                    <div class="article__tour-content-hot-icon">
+                        <i class='bx bxs-hot'></i>
+                        <p>Hot</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section>
+        <div class="article article-hot">
+            <div class="article__tour--list article__tour--list-hot">
+                <div class="article__tour-img">
+                    <img src="./assets/img/bg9.jpg" alt="">
+                </div>
+                <div class="article__tour-content">
+                    <div class="article__tour-content--name">
+                        <h3>Thung lũng Quebrada de Humahuaca, Argentina.</h3>
+                    </div>
+                    <div class="article__tour-content--start private-icon-article">
+                        <i class='bx bxs-map'></i>
+                        <p>Ngày 9 tháng 10 năm 2023</p>
+                    </div>
+                    <div class="article__tour-content--price private-icon-article">
+                        <i class='bx bxs-purchase-tag' ></i>
+                        <p>8.220.000đ</p><template></template>
+                    </div>
+                    <div class="article__tour-content--view">
+                        <p>8000 lượt xem</p>
+                    </div>
+                    <div class="article__tour-content--detail">
+                        <a href="">Xem chi tiết</a>
+                    </div>
+                    <div class="article__tour-content-hot-icon">
+                        <i class='bx bxs-hot'></i>
+                        <p>Hot</p>
+                    </div>
+                </div>
+            </div>
+            <div class="article__tour--list article__tour--list-hot">
+                <div class="article__tour-img">
+                    <img src="./assets/img/bg9.jpg" alt="">
+                </div>
+                <div class="article__tour-content">
+                    <div class="article__tour-content--name">
+                        <h3>Thung lũng Quebrada de Humahuaca, Argentina.</h3>
+                    </div>
+                    <div class="article__tour-content--start private-icon-article">
+                        <i class='bx bxs-map'></i>
+                        <p>Ngày 9 tháng 10 năm 2023</p>
+                    </div>
+                    <div class="article__tour-content--price private-icon-article">
+                        <i class='bx bxs-purchase-tag' ></i>
+                        <p>8.220.000đ</p><template></template>
+                    </div>
+                    <div class="article__tour-content--view">
+                        <p>8000 lượt xem</p>
+                    </div>
+                    <div class="article__tour-content--detail">
+                        <a href="">Xem chi tiết</a>
+                    </div>
+                    <div class="article__tour-content-hot-icon">
+                        <i class='bx bxs-hot'></i>
+                        <p>Hot</p>
+                    </div>
+                </div>
+            </div>
+            <div class="article__tour--list article__tour--list-hot">
+                <div class="article__tour-img">
+                    <img src="./assets/img/bg9.jpg" alt="">
+                </div>
+                <div class="article__tour-content">
+                    <div class="article__tour-content--name">
+                        <h3>Thung lũng Quebrada de Humahuaca, Argentina.</h3>
+                    </div>
+                    <div class="article__tour-content--start private-icon-article">
+                        <i class='bx bxs-map'></i>
+                        <p>Ngày 9 tháng 10 năm 2023</p>
+                    </div>
+                    <div class="article__tour-content--price private-icon-article">
+                        <i class='bx bxs-purchase-tag' ></i>
+                        <p>8.220.000đ</p><template></template>
+                    </div>
+                    <div class="article__tour-content--view">
+                        <p>8000 lượt xem</p>
+                    </div>
+                    <div class="article__tour-content--detail">
+                        <a href="">Xem chi tiết</a>
+                    </div>
+                    <div class="article__tour-content-hot-icon">
+                        <i class='bx bxs-hot'></i>
+                        <p>Hot</p>
+                    </div>
+                </div>
+            </div>
+            <div class="article__tour--list article__tour--list-hot">
+                <div class="article__tour-img">
+                    <img src="./assets/img/bg9.jpg" alt="">
+                </div>
+                <div class="article__tour-content">
+                    <div class="article__tour-content--name">
+                        <h3>Thung lũng Quebrada de Humahuaca, Argentina.</h3>
+                    </div>
+                    <div class="article__tour-content--start private-icon-article">
+                        <i class='bx bxs-map'></i>
+                        <p>Ngày 9 tháng 10 năm 2023</p>
+                    </div>
+                    <div class="article__tour-content--price private-icon-article">
+                        <i class='bx bxs-purchase-tag' ></i>
+                        <p>8.220.000đ</p><template></template>
+                    </div>
+                    <div class="article__tour-content--view">
+                        <p>8000 lượt xem</p>
+                    </div>
+                    <div class="article__tour-content--detail">
+                        <a href="">Xem chi tiết</a>
+                    </div>
+                    <div class="article__tour-content-hot-icon">
+                        <i class='bx bxs-hot'></i>
+                        <p>Hot</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 class="h2-article">Khách hàng nói gì về chúng tôi
+            <div class="h2-article__content">
+                
+            </div>
+        </h2>
+        <div class="article__report">
+            <div class="article__report--list">
+                <img src="./assets/img/user2.jpg" alt="">
+                <div class="article__report-content">
+                    <div class="article__day-feedback">
+                        <span>CARLA SMITH</span>
+                        <p>May 24, 2023</p>
+                    </div>
+                    <div class="article__report-feedback">
+                        <p>chuyến đi thật tuyệt vời</p>
+                    </div>
+                    <div class="article__feedback-content">
+                        <p>Chuyến đi Sa thạch The Wave, Arizona,ở Mỹ với những trãi nghiệm tuyệt vời ngoài sức mong đợi của tôi, cảm ơn TRAVEL đã mang đến trãi nghiệm tuyệt vời này</p>
+                    </div>
+                </div>
+                <div class="article__report-content-blur">
+                </div>
+            </div>
+            <div class="article__report--list">
+                <img src="./assets/img/user1.jpg" alt="">
+                <div class="article__report-content">
+                    <div class="article__day-feedback">
+                        <span>CARLA SMITH</span>
+                        <p>May 24, 2023</p>
+                    </div>
+                    <div class="article__report-feedback">
+                        <p>chuyến đi thật tuyệt vời</p>
+                    </div>
+                    <div class="article__feedback-content">
+                        <p>Chuyến đi Sa thạch The Wave, Arizona,ở Mỹ với những trãi nghiệm tuyệt vời ngoài sức mong đợi của tôi, cảm ơn TRAVEL đã mang đến trãi nghiệm tuyệt vời này</p>
+                    </div>
+                </div>
+                <div class="article__report-content-blur">
+                    
+                </div>
+            </div>
+            <div class="article__report--list">
+                <img src="./assets/img/user3.jpg" alt="">
+                <div class="article__report-content">
+                    <div class="article__day-feedback">
+                        <span>CARLA SMITH</span>
+                        <p>May 24, 2023</p>
+                    </div>
+                    <div class="article__report-feedback">
+                        <p>chuyến đi thật tuyệt vời</p>
+                    </div>
+                    <div class="article__feedback-content">
+                        <p>Chuyến đi Sa thạch The Wave, Arizona,ở Mỹ với những trãi nghiệm tuyệt vời ngoài sức mong đợi của tôi, cảm ơn TRAVEL đã mang đến trãi nghiệm tuyệt vời này</p>
+                    </div>
+                </div>
+                <div class="article__report-content-blur">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="article__support">
+            <div class="article__support-list">
+                <div class="aticle__support-icon hotel">
+                    <i class='bx bxs-home-alt-2'></i>
+                    <p>hỗ trợ khách sạn miễn phí</p>
+                </div>
+                <div class="aticle__support-icon car">
+                    <i class='bx bxs-car'></i>
+                    <p>Hỗ trợ xe</p>
+                </div>
+                <div class="aticle__support-icon atm">
+                    <i class='bx bxs-credit-card'></i>
+                    <p>Thanh toán đa dạng</p>
+                </div>
+                <div class="aticle__support-icon food">
+                    <i class='bx bxs-baguette' ></i>
+                    <p>Đồ ăn miễn phí</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 class="h2-article">Hỗ trợ khách sạn miễn phí
+            <div class="h2-article__content">
+                
+            </div>
+        </h2>
+        <div class="article__support-content">
+            <div class="article__support-content-img">
+                <img src="./assets/img/khachsan.jpg" alt="">
+            </div>
+            <div class="article__support-content-list">
+                <div class="article__support-content-null">
+
+                </div>
+                <div class="article__support-content-title">
+                    <h3>Hỗ trợ khách sạn miễn phí cho bạn</h3>
+                </div>
+                <div class="article__support-content-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora rerum eum qui explicabo ducimus animi repellendus totam repellat voluptate cum atque exercitationem praesentium suscipit tempore sed at, quam omnis? Eaque.</p>
+                </div>
+                <div class="article__support-content-btn">
+                    <button>Xem thêm</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 class="h2-article">Tất cả tour du lịch
+            <div class="h2-article__content">
+                
+            </div>
+        </h2>
+        <div class="gallery">
+            <div class="gallery-section gallery-section-1">
+              <img class="gallery-img" src="./assets/img/bg2.jpg" alt="Image 1">
+              <img class="gallery-img" src="./assets/img/bg3.jpg" alt="Image 2">
+              <img class="gallery-img" src="./assets/img/bg4.jpg" alt="Image 3">
+              <img class="gallery-img" src="./assets/img/bg5.jpg" alt="Image 4">
+            </div>
+            <div class="gallery-section gallery-section-2">
+              <img class="gallery-img" src="./assets/img/bg6.jpg" alt="Image 5">
+              <img class="gallery-img" src="./assets/img/bg7.jpg" alt="Image 6">
+              <img class="gallery-img" src="./assets/img/bg8.jpg" alt="Image 7">
+            </div>
+            <div class="gallery-section gallery-section-3">
+              <img class="gallery-img" src="./assets/img/bg9.jpg" alt="Image 8">
+              <img class="gallery-img" src="./assets/img/bg10.jpg" alt="Image 9">
+              <img class="gallery-img" src="./assets/img/bg1.jpg" alt="Image 10">
+              <img class="gallery-img" src="./assets/img/bg2.jpg" alt="Image 11">
+            </div>
+          </div>
+          <div id="fullscreen-modal">
+            <img id="fullscreen-img" src="" alt="Fullscreen Image">
+          </div>
+        </div>
+    </section>
+    <section>
+        <div class="footer">
+            <div class="footer__logo">
+                <h3>TRAVEL</h3>
+                <span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sit officiis, voluptatum ullam consectetur unde natus suscipit doloribus. Soluta laboriosam laudantium architecto fuga nostrum fugit cupiditate odit alias reprehenderit ipsum.
+                </span>
+            </div>
+            <div class="footer__list">
+                <div class="footer__list-support">
+                    <h4>Hỗ trợ khách hàng</h4>
+                    <ul>
+                        <li>Chăm sóc khách hàng</li>
+                        <li>Thanh toán</li>
+                        <li>Hướng dẫn mua hàng</li>
+                        <li>vấn đề hàng hóa</li>
+                    </ul>
+                </div>
+                <div class="footer__list-support">
+                    <h4>Chính sách</h4>
+                    <ul>
+                        <li>Chính sách bảo mật</li>
+                        <li>Chính sách đổi hàng</li>
+                        <li>Chính sách kiểm hàng</li>
+                        <li>Chính sách bảo hành</li>
+                    </ul>
+                </div>
+                <div class="footer__list-support">
+                    <h4>Danh mục</h4>
+                    <ul>
+                        <li>Du lịch trong nước</li>
+                        <li>Du lịch nước ngoài</li>
+                        <li>Du lịch châu á</li>
+                        <li>Du lịch châu Âu - Mỹ</li>
+                    </ul>
+                </div>
+                <div class="footer__list-app">
+                    <div class="footer__list-app-gg">
+                        <h4>Google play</h4>
+                        <img src="./assets/img/ggplay.png" alt="">
+                    </div>
+                    <div class="footer__list-app-apple">
+                        <h4>Apple store</h4>
+                        <img src="./assets/img/applestore.png" alt="">
+                    </div>
+                </div>
+                <div class="footer__list-social">
+                    <h4>Địa chỉ</h4>
+                    <p>2252/ 22c khu phố 1, phường tân chánh hiệp quận 12</p>
+                    <i class='bx bxl-facebook' ></i>
+                    <i class='bx bxl-instagram-alt' ></i>
+                    <i class='bx bxl-twitter' ></i>
+                    <i class='bx bxl-tiktok' ></i>
+                </div>
+                <div class="footer__input">
+                    <input type="text" placeholder="xin mời nhập email của bạn">
+                    <button>Gửi</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
